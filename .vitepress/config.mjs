@@ -6,7 +6,7 @@ export default defineConfig({
   description: "A VitePress Site",
   themeConfig: {
     /** 打包项目的根目录 */
-    base: "./",
+    base: "/document/",
     // logo
     head: [["link", { rel: "icon", href: "/public/logo.svg" }]],
     // 代替标题
