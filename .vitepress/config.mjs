@@ -7,7 +7,7 @@ export default defineConfig({
   themeConfig: {
     outDir: "../dist",
     /** 打包项目的根目录 */
-    base: "/document/",
+    base: "./",
     // logo
     head: [["link", { rel: "icon", href: "/public/logo.svg" }]],
     // 代替标题
