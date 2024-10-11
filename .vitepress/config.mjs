@@ -5,7 +5,7 @@ export default defineConfig({
   title: "文档中心",
   description: "A VitePress Site",
   themeConfig: {
-    base: "/https://github.com/Howyc/document.git",
+    base: "/document/",
     // logo
     head: [["link", { rel: "icon", href: "/public/logo.svg" }]],
     // 代替标题
