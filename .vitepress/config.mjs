@@ -5,7 +5,6 @@ export default defineConfig({
   title: "文档中心",
   description: "A VitePress Site",
   themeConfig: {
-    outDir: "../dist",
     /** 打包项目的根目录 */
     base: "./",
     // logo
