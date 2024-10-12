@@ -6,9 +6,9 @@ export default defineConfig({
   description: "A VitePress Site",
   themeConfig: {
     /** 打包项目的根目录 */
-    // base: "/",
+    base: "/document/",
     // logo
-    head: [["link", { rel: "icon", href: "/public/logo.svg" }]],
+    head: [["link", { rel: "icon", href: "/document/logo.svg" }]],
     // 代替标题
     outlineTitle: "文章目录",
     outline: [2, 6],
